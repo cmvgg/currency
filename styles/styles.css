@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+  background-image: url("fondo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(231, 210, 255);
+  background-color: rgba(0, 0, 255, 0.256);
+  border-radius: 100%;
+  width: 80%;
+  font-size: 2rem;
+  text-align: 7rem;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  align-items: end;
+}
+
+::-moz-placeholder {
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+  border-radius: 1.3rem;
+}
+
+:-ms-input-placeholder {
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+  border-radius: 1.3rem;
+}
+
+::placeholder {
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+  border-radius: 1.3rem;
+}
+
+input {
+  text-align: center;
+  width: 48%;
+  height: 1.4rem;
+}
+
+input:hover {
+  border: inline;
+}
+
+label {
+  color: rgb(220, 242, 220);
+  background-color: rgba(255, 0, 0, 0.174);
+  border-style: hidden;
+  font-size: 1.7rem;
+  height: 35%;
+}
+
+select {
+  margin-top: 5%;
+  font-size: 1.3rem;
+  border: 0;
+  border-radius: 1.2rem;
+}
+
+option {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.currenci .imgchange {
+  height: 17rem;
+}
+
+.tasa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  display: none;
+}
+
+.cambio {
+  display: flex;
+  background-color: white;
+  border-radius: 85%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 30%;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  padding: 0 10px;
+}
+
+select:focus, input:focus, button:focus {
+  outline: tomato;
+}/*# sourceMappingURL=styles.css.map */
